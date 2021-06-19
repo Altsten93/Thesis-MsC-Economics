@@ -22,75 +22,32 @@ library(GB2)
 
 #############################################################################################################
 
-Wage_sim<-function(y, x){
+
+Wage_sim<-function(y, x, z){
   
-  Wages<-c(
-    (rep(y[1],   x[1])),
-    (rep(y[2],   x[2])),
-    (rep(y[3],   x[3])),
-    (rep(y[4],   x[4])),
-    (rep(y[5],   x[5])),
-    (rep(y[6],   x[6])),
-    (rep(y[7],   x[7])),
-    (rep(y[8],   x[8])), 
-    (rep(y[9],   x[9])),
-    (rep(y[10],  x[10])),
-    (rep(y[11],  x[11])),
-    (rep(y[12],  x[12])), 
-    (rep(y[13],  x[13])),  
-    (rep(y[14],  x[14])), 
-    (rep(y[15],  x[15])),  
-    (rep(y[16],  x[16])),
-    (rep(y[17],  x[17])), 
-    (rep(y[18],  x[18])), 
-    (rep(y[19],  x[19])),
-    (rep(y[20],  x[20])), 
-    (rep(y[21],  x[21])),
-    (rep(y[22],  x[22])),
-    (rep(y[23],  x[23])), 
-    (rep(y[25],  x[24])),
-    (rep(y[25],  x[25])),
-    (rep(y[26],  x[26])))
+  Wages<-NULL  
   
+  for (i in seq(1, z)) {
+    
+    Wages<-c(Wages, rep(y[i],  x[i]))
+    
+  }
   
   return(Wages)
 }
 
-Wage_sim_2<-function(y, x){
+Wage_sim_2<-function(y, x, z){
   
-  Wages<-c(
-    (rep(y[1],   x[1])),
-    (rep(y[2],   x[2])),
-    (rep(y[3],   x[3])),
-    (rep(y[4],   x[4])),
-    (rep(y[5],   x[5])),
-    (rep(y[6],   x[6])),
-    (rep(y[7],   x[7])),
-    (rep(y[8],   x[8])), 
-    (rep(y[9],   x[9])),
-    (rep(y[10],  x[10])),
-    (rep(y[11],  x[11])),
-    (rep(y[12],  x[12])), 
-    (rep(y[13],  x[13])),  
-    (rep(y[14],  x[14])), 
-    (rep(y[15],  x[15])),  
-    (rep(y[16],  x[16])),
-    (rep(y[17],  x[17])), 
-    (rep(y[18],  x[18])), 
-    (rep(y[19],  x[19])),
-    (rep(y[20],  x[20])), 
-    (rep(y[21],  x[21])),
-    (rep(y[22],  x[22])),
-    (rep(y[23],  x[23])), 
-    (rep(y[25],  x[24])),
-    (rep(y[25],  x[25])),
-    (rep(y[26],  x[26])))
+  Wages<-NULL  
   
+  for (i in seq(1, z)) {
+    
+    Wages<-c(Wages, rep(y[i],  x[i]))
+    
+  }
   
   return(Wages[Wages>0])
 }
-
-
 
 ###############################################  Thesis 2020   ##############################################
 
@@ -170,10 +127,6 @@ write.xlsx(Check, "sofar")
 write.xlsx(Sim_matrix, "GB2-Parameters")
 
 
-
-write.xlsx(sim_gini, "sim gini gb2")
-
-
 write.xlsx(Sim_matrix, "Simulated Gini") #Simulated Ginis
 
 
@@ -232,12 +185,6 @@ ggplot(data=SAMPLE)+geom_density(aes(V2, color=`Sample Size`))+theme_bw()+ylab("
 
 
 #############################################################################################################
-
-
-
-
-
-
 
 ## Assessment of the implications of group data; pic 1 - Gothenburg@2000,  pic 2 - Year mean scores
 
