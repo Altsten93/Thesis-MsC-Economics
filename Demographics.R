@@ -29,7 +29,7 @@ Country$Diff<-Country[, 21]-Country[, 2]
 
 Country<-Country[, c(1, 23)]
 
-#Top immigration countries as of yr 2019.
+#Top countries as of yr 2019.
 
 Names<-NULL
 
@@ -101,7 +101,7 @@ HCI_frame[7, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == 
 HCI_frame[8, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "India"], "Asia", Lifeexp$`2018`[Lifeexp$`Country Name` =="India"],Educ_Score(which(Educationallength$...2 =="Indien")[1])) #India
 HCI_frame[9, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "Iran, Islamic Rep."], "Asia", Lifeexp$`2018`[Lifeexp$`Country Name` =="Iran, Islamic Rep."],Educ_Score(which(Educationallength$...2 =="Iran")[1])) #Iran                    
 HCI_frame[10, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "China"], "Asia", Lifeexp$`2018`[Lifeexp$`Country Name` =="China"],Educ_Score(which(Educationallength$...2 =="Kina")[1])) #China
-HCI_frame[11, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "Romania"], "Europe", Lifeexp$`2018`[Lifeexp$`Country Name` =="Romania"],Educ_Score(which(Educationallength$...2 =="Rumänien")[1])) #Romania
+HCI_frame[11, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "Romania"], "Europe", Lifeexp$`2018`[Lifeexp$`Country Name` =="Romania"],Educ_Score(which(Educationallength$...2 =="RumÃ¤nien")[1])) #Romania
 HCI_frame[12, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "Turkey"], "Europe", Lifeexp$`2018`[Lifeexp$`Country Name` =="Turkey"], Educ_Score(which(Educationallength$...2 =="Turkiet")[1])) #Turkey
 HCI_frame[13, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "Pakistan"], "Asia", Lifeexp$`2018`[Lifeexp$`Country Name` =="Pakistan"],Educ_Score(which(Educationallength$...2 =="Pakistan")[1])) #Pakistan
 HCI_frame[14, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "Russian Federation"], "Europe", Lifeexp$`2018`[Lifeexp$`Country Name` =="Russian Federation"],Educ_Score(which(Educationallength$...2 =="Ryssland")[1])) #Russia
@@ -119,7 +119,7 @@ HCI_frame[25, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` ==
 HCI_frame[26, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "Bosnia and Herzegovina"], "Europe", Lifeexp$`2018`[Lifeexp$`Country Name` =="Bosnia and Herzegovina"], Educ_Score(which(Educationallength$...2 =="Bosnien och Hercegovina")[1])) #Bosnia
 HCI_frame[27, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "Lebanon"], "Asia", Lifeexp$`2018`[Lifeexp$`Country Name` =="Lebanon"],Educ_Score(which(Educationallength$...2 =="Libanon")[1])) #Lebanon
 HCI_frame[28, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "United States"], "North America", Lifeexp$`2018`[Lifeexp$`Country Name` =="United States"],Educ_Score(which(Educationallength$...2 =="USA")[1])) #USA
-HCI_frame[29, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "Netherlands"], "Europe", Lifeexp$`2018`[Lifeexp$`Country Name` =="Netherlands"], Educ_Score(which(Educationallength$...2 =="Nederländerna")[1])) #Nederländerna
+HCI_frame[29, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "Netherlands"], "Europe", Lifeexp$`2018`[Lifeexp$`Country Name` =="Netherlands"], Educ_Score(which(Educationallength$...2 =="NederlÃ¤nderna")[1])) #NederlÃ¤nderna
 HCI_frame[30, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "Spain"], "Europe", Lifeexp$`2018`[Lifeexp$`Country Name` =="Spain"], Educ_Score(which(Educationallength$...2 =="Spanien")[1])) #Spanien
 HCI_frame[31, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "Italy"], "Europe", Lifeexp$`2018`[Lifeexp$`Country Name` =="Italy"], Educ_Score(which(Educationallength$...2 =="Italien")[1])) #Italien
 HCI_frame[32, seq(2, 5)]<-c(hci$`HUMAN CAPITAL INDEX 2020`[hci$`Country Name` == "West Bank and Gaza"], "Asia", Lifeexp$`2018`[Lifeexp$`Country Name` =="West Bank and Gaza"], 2.2) #Italien
@@ -2128,7 +2128,7 @@ for (i in seq(0, 289)) {
 
 ############################################################################################################
 
-   ## Year 2000 [MANUAL - Yikez]
+   ## Year 2000-2001
 
 ##############################################################################################################
 
