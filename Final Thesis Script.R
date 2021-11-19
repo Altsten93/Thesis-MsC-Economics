@@ -1,4 +1,5 @@
 
+
 #############################################################################################################
 
                        ############## Packages ##############
@@ -328,36 +329,36 @@ Extract<-function(x){ #Function for extracting foreign-born stats.
 
 ## Plot gini for outliers
 
-Outlier_frame<-data.frame("Älmhult"=Thesis$Gini[Thesis$Municipality == "almhult"]
+Outlier_frame<-data.frame("Ã„lmhult"=Thesis$Gini[Thesis$Municipality == "almhult"]
                           ,"Lessebo"=Thesis$Gini[Thesis$Municipality == "Lessebo"]
-                          ,"Södertälje"=Thesis$Gini[Thesis$Municipality == "Sadertalje"]
-                          ,"Högsby"=Thesis$Gini[Thesis$Municipality == "Hagsby"]
+                          ,"SÃ¶dertÃ¤lje"=Thesis$Gini[Thesis$Municipality == "Sadertalje"]
+                          ,"HÃ¶gsby"=Thesis$Gini[Thesis$Municipality == "Hagsby"]
                           ,"Sigtuna"=Thesis$Gini[Thesis$Municipality == "Sigtuna"]
                           ,"Hylte"=Thesis$Gini[Thesis$Municipality == "Hylte"]
-                          ,"Burlöv"=Thesis$Gini[Thesis$Municipality == "Burlav"]
+                          ,"BurlÃ¶v"=Thesis$Gini[Thesis$Municipality == "Burlav"]
                           ,"Uppvidinge"=Thesis$Gini[Thesis$Municipality == "Uppvidinge"]
                           ,"Makaryd"=Thesis$Gini[Thesis$Municipality == "Makaryd"]
-                          ,"Östra Göinge"=Thesis$Gini[Thesis$Municipality == "astra Gainge"]
+                          ,"Ã–stra GÃ¶inge"=Thesis$Gini[Thesis$Municipality == "astra Gainge"]
                           
                           ,"Lessebo"=Thesis$Gini[Thesis$Municipality == "Lessebo"]
-                          ,"Södertälje"=Thesis$Gini[Thesis$Municipality == "Sadertalje"]
+                          ,"SÃ¶dertÃ¤lje"=Thesis$Gini[Thesis$Municipality == "Sadertalje"]
                           ,"Sigtuna"=Thesis$Gini[Thesis$Municipality == "Sigtuna"]
                           ,"Hylte"=Thesis$Gini[Thesis$Municipality == "Hylte"]
-                          ,"Burlöv"=Thesis$Gini[Thesis$Municipality == "Burlav"]
+                          ,"BurlÃ¶v"=Thesis$Gini[Thesis$Municipality == "Burlav"]
                           ,"Uppvidinge"=Thesis$Gini[Thesis$Municipality == "Uppvidinge"]
                           ,"Makaryd"=Thesis$Gini[Thesis$Municipality == "Makaryd"]
                           ,"Sundbyberg"=Thesis$Gini[Thesis$Municipality == "Sundbyberg"]
-                          ,"Järfälla"=Thesis$Gini[Thesis$Municipality == "Jarfalla"]
-                          ,"Åstorp"=Thesis$Gini[Thesis$Municipality == "astorp"]
+                          ,"JÃ¤rfÃ¤lla"=Thesis$Gini[Thesis$Municipality == "Jarfalla"]
+                          ,"Ã…storp"=Thesis$Gini[Thesis$Municipality == "astorp"]
                           
-                          ,"Älmhult"=Thesis$Gini[Thesis$Municipality == "almhult"]
-                          ,"Högsby"=Thesis$Gini[Thesis$Municipality == "Hagsby"]
-                          ,"Östra Göinge"=Thesis$Gini[Thesis$Municipality == "astra Gainge"]
+                          ,"Ã„lmhult"=Thesis$Gini[Thesis$Municipality == "almhult"]
+                          ,"HÃ¶gsby"=Thesis$Gini[Thesis$Municipality == "Hagsby"]
+                          ,"Ã–stra GÃ¶inge"=Thesis$Gini[Thesis$Municipality == "astra Gainge"]
                           ,"HUltsfred"=Thesis$Gini[Thesis$Municipality == "Hultsfred"]
-                          ,"Sävsjö"=Thesis$Gini[Thesis$Municipality == "Savsja"]
+                          ,"SÃ¤vsjÃ¶"=Thesis$Gini[Thesis$Municipality == "Savsja"]
                           ,"Bengtsfors"=Thesis$Gini[Thesis$Municipality == "Bengtsfors"]
                           ,"Emmaboda"=Thesis$Gini[Thesis$Municipality == "Nassja"]
-                          ,"Enköping"=Thesis$Gini[Thesis$Municipality == "Emmaboda"]
+                          ,"EnkÃ¶ping"=Thesis$Gini[Thesis$Municipality == "Emmaboda"]
                           ,"Filipstad"=Thesis$Gini[Thesis$Municipality == "Filipstad"]
                           ,"Ronneby"=Thesis$Gini[Thesis$Municipality == "Ronneby"]
                           ,"Period"=seq(2000, 2019))
@@ -411,14 +412,14 @@ Heterogeneity_ForBorn_Low(seq(1, 10), 0) #Bottom 10, given low PFB 2000.
 
 Outlier_frame_2<-data.frame("Nykvarn"=Thesis$Gini[Thesis$Municipality == "Nykvarn"][1:20]
                             ,"Hammaro"=Thesis$Gini[Thesis$Municipality == "Hammaro"][1:20]
-                            ,"Södertälje"=Thesis$Gini[Thesis$Municipality == "Sadertalje"][1:20]
+                            ,"SÃ¶dertÃ¤lje"=Thesis$Gini[Thesis$Municipality == "Sadertalje"][1:20]
                             ,"Surahammar"=Thesis$Gini[Thesis$Municipality == "Surahammar"][1:20]
                             ,"Vaxholm"=Thesis$Gini[Thesis$Municipality == "Vaxholm"][1:20]
                             ,"Kil"=Thesis$Gini[Thesis$Municipality == "Kil"][1:20]
                             ,"Gagnef"=Thesis$Gini[Thesis$Municipality == "Gagnef"][1:20]
-                            ,"Östhammar"=Thesis$Gini[Thesis$Municipality == "asthammar"][1:20]
-                            ,"Härryda"=Thesis$Gini[Thesis$Municipality == "Harryda"][1:20]
-                            ,"Söderköping"=Thesis$Gini[Thesis$Municipality == "Saderkaping"][1:20]
+                            ,"Ã–sthammar"=Thesis$Gini[Thesis$Municipality == "asthammar"][1:20]
+                            ,"HÃ¤rryda"=Thesis$Gini[Thesis$Municipality == "Harryda"][1:20]
+                            ,"SÃ¶derkÃ¶ping"=Thesis$Gini[Thesis$Municipality == "Saderkaping"][1:20]
                             
                             ,"Nykvarn"=Thesis$Gini[Thesis$Municipality == "Nykvarn"]
                             ,"Surahammar"=Thesis$Gini[Thesis$Municipality == "Surahammar"]
@@ -432,16 +433,16 @@ Outlier_frame_2<-data.frame("Nykvarn"=Thesis$Gini[Thesis$Municipality == "Nykvar
                             ,"Trosa"=Thesis$Gini[Thesis$Municipality == "Trosa"]
                             
                             
-                            ,"Hammarö"=Thesis$Gini[Thesis$Municipality == "Hammaro"]
+                            ,"HammarÃ¶"=Thesis$Gini[Thesis$Municipality == "Hammaro"]
                             ,"Kil"=Thesis$Gini[Thesis$Municipality == "Kil"]
                             ,"Gagnef"=Thesis$Gini[Thesis$Municipality == "Gagnef"]
                             ,"Lerum"=Thesis$Gini[Thesis$Municipality == "Lerum"]
-                            ,"Östhammar"=Thesis$Gini[Thesis$Municipality == "asthammar"]
-                            ,"Söderköping"=Thesis$Gini[Thesis$Municipality == "Saderkaping"]
-                            ,"Öckero"=Thesis$Gini[Thesis$Municipality == "ockero"]
+                            ,"Ã–sthammar"=Thesis$Gini[Thesis$Municipality == "asthammar"]
+                            ,"SÃ¶derkÃ¶ping"=Thesis$Gini[Thesis$Municipality == "Saderkaping"]
+                            ,"Ã–ckero"=Thesis$Gini[Thesis$Municipality == "ockero"]
                             ,"Habo"=Thesis$Gini[Thesis$Municipality == "Habo"]
-                            ,"Säter"=Thesis$Gini[Thesis$Municipality == "Sater"]
-                            ,"Piteå"=Thesis$Gini[Thesis$Municipality == "Pitea"]
+                            ,"SÃ¤ter"=Thesis$Gini[Thesis$Municipality == "Sater"]
+                            ,"PiteÃ¥"=Thesis$Gini[Thesis$Municipality == "Pitea"]
                             
                             ,"Period"=seq(2000, 2019))
 
