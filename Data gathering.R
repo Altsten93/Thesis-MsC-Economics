@@ -1,4 +1,5 @@
 
+
 #############################################################################################################
 
                                 ############## Thesis_2021 - Outline ##############
@@ -79,7 +80,7 @@ Number_of_people <- read_excel("C:/Users/46766/Dropbox/Thesis_2021/Thesis data/N
 
 Mean <- as.data.frame(read_excel("C:/Users/46766/Dropbox/Thesis_2021/Thesis data/Mean.xlsx"))
 
-Age <- as.data.frame(read_excel("C:/Users/46766/Dropbox/Thesis_2021//Thesis data/Ålder.xlsx"))
+Age <- as.data.frame(read_excel("C:/Users/46766/Dropbox/Thesis_2021//Thesis data/Ã…lder.xlsx"))
 
 ## Removing SCB author information
 
@@ -369,257 +370,257 @@ for (i in seq(0, 289)) {
 
 ## Fixing non-matches
 
-Unemp[1:20]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Upplands Väsby",])
+Unemp[1:20]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Upplands VÃ¤sby",])
 
-Unemp[41:60]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Österåker",])
+Unemp[41:60]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã–sterÃ¥ker",])
 
-Unemp[61:80]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Värmdö",])
+Unemp[61:80]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "VÃ¤rmdÃ¶",])
 
-Unemp[81:100]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Järfälla",])
+Unemp[81:100]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "JÃ¤rfÃ¤lla",])
 
-Unemp[101:120]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ekerö",])
+Unemp[101:120]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "EkerÃ¶",])
 
-Unemp[201:220]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Tyresö",])
+Unemp[201:220]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "TyresÃ¶",])
 
-Unemp[261:280]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Täby",])
+Unemp[261:280]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "TÃ¤by",])
 
-Unemp[341:360]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Södertälje",])
+Unemp[341:360]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "SÃ¶dertÃ¤lje",])
 
-Unemp[421:440]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Lidingö",])
+Unemp[421:440]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "LidingÃ¶",])
 
-Unemp[461:480]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Norrtälje",])
+Unemp[461:480]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "NorrtÃ¤lje",])
 
-Unemp[501:520]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Nynäshamn",])
+Unemp[501:520]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "NynÃ¤shamn",])
 
-Unemp[521:540]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Håbo",])
+Unemp[521:540]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "HÃ¥bo",])
 
-Unemp[541:560]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Älvkarleby",])
+Unemp[541:560]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã„lvkarleby",])
 
-Unemp[641:660]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Enköping",])
+Unemp[641:660]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "EnkÃ¶ping",])
 
-Unemp[661:680]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Östhammar",])
+Unemp[661:680]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã–sthammar",])
 
-Unemp[681:700]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Vingåker",])
+Unemp[681:700]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "VingÃ¥ker",])
 
-Unemp[721:740]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Nyköping",])
+Unemp[721:740]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "NykÃ¶ping",])
 
-Unemp[741:760]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Oxelösund",])
+Unemp[741:760]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "OxelÃ¶sund",])
 
-Unemp[821:840]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Strängnäs",])
+Unemp[821:840]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "StrÃ¤ngnÃ¤s",])
 
-Unemp[861:880]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ödeshög",])
+Unemp[861:880]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã–deshÃ¶g",])
 
-Unemp[941:960]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Åtvidaberg",])
+Unemp[941:960]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã…tvidaberg",])
 
-Unemp[961:980]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Finspång",])
+Unemp[961:980]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "FinspÃ¥ng",])
 
-Unemp[1001:1020]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Linköping",])
+Unemp[1001:1020]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "LinkÃ¶ping",])
 
-Unemp[1021:1040]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Norrköping",])
+Unemp[1021:1040]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "NorrkÃ¶ping",])
 
-Unemp[1041:1060]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Söderköping",])
+Unemp[1041:1060]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "SÃ¶derkÃ¶ping",])
 
-Unemp[1101:1120]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Mjölby",])
+Unemp[1101:1120]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "MjÃ¶lby",])
 
-Unemp[1141:1160]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Gnosjö",])
+Unemp[1141:1160]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "GnosjÃ¶",])
 
-Unemp[1161:1180]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Mullsjö",])
+Unemp[1161:1180]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "MullsjÃ¶",])
 
-Unemp[1241:1260]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Jönköping",])
+Unemp[1241:1260]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "JÃ¶nkÃ¶ping",])
 
-Unemp[1261:1280]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Nässjö",])
+Unemp[1261:1280]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "NÃ¤ssjÃ¶",])
 
-Unemp[1281:1300]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Värnamo",])
+Unemp[1281:1300]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "VÃ¤rnamo",])
 
-Unemp[1301:1320]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Sävsjö",])
+Unemp[1301:1320]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "SÃ¤vsjÃ¶",])
 
-Unemp[1341:1360]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Eksjö",])
+Unemp[1341:1360]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "EksjÃ¶",])
 
-Unemp[1361:1380]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Tranås",])
+Unemp[1361:1380]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "TranÃ¥s",])
 
-Unemp[1461:1480]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Älmhult",])
+Unemp[1461:1480]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã„lmhult",])
 
 Unemp[1481:1500]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Markaryd",])
 
-Unemp[1501:1520]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Växjö",])
+Unemp[1501:1520]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "VÃ¤xjÃ¶",])
 
-Unemp[1541:1560]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Högsby",])
+Unemp[1541:1560]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "HÃ¶gsby",])
 
-Unemp[1561:1580]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Torsås",])
+Unemp[1561:1580]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "TorsÃ¥s",])
 
-Unemp[1581:1600]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Mörbylånga",])
+Unemp[1581:1600]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "MÃ¶rbylÃ¥nga",])
 
-Unemp[1621:1640]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Mönsterås",])
+Unemp[1621:1640]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "MÃ¶nsterÃ¥s",])
 
-Unemp[1721:1740]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Västervik",])
+Unemp[1721:1740]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "VÃ¤stervik",])
 
-Unemp[1801:1820]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Olofström",])
+Unemp[1801:1820]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "OlofstrÃ¶m",])
 
-Unemp[1881:1900]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Sölvesborg",])
+Unemp[1881:1900]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "SÃ¶lvesborg",])
 
-Unemp[1901:1920]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Svalöv",])
+Unemp[1901:1920]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "SvalÃ¶v",])
 
-Unemp[1941:1960]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Burlöv",])
+Unemp[1941:1960]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "BurlÃ¶v",])
 
-Unemp[1981:2000]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Östra Göinge",])
+Unemp[1981:2000]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã–stra GÃ¶inge",])
 
-Unemp[2001:2020]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Örkelljunga",])
+Unemp[2001:2020]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã–rkelljunga",])
 
-Unemp[2041:2060]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Kävlinge",])
+Unemp[2041:2060]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "KÃ¤vlinge",])
 
-Unemp[2121:2140]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Sjöbo",])
+Unemp[2121:2140]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "SjÃ¶bo",])
 
-Unemp[2141:2160]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Hörby",])
+Unemp[2141:2160]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "HÃ¶rby",])
 
-Unemp[2161:2180]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Höör",])
+Unemp[2161:2180]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "HÃ¶Ã¶r",])
 
-Unemp[2201:2220]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Bromölla",])
+Unemp[2201:2220]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "BromÃ¶lla",])
 
-Unemp[2281:2300]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Åstorp",])
+Unemp[2281:2300]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã…storp",])
 
-Unemp[2301:2320]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Båstad",])
+Unemp[2301:2320]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "BÃ¥stad",])
 
-Unemp[2321:2340]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Malmö",])
+Unemp[2321:2340]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "MalmÃ¶",])
 
-Unemp[2401:2420]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Höganäs",])
+Unemp[2401:2420]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "HÃ¶ganÃ¤s",])
 
-Unemp[2421:2460]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Eslöv",])
+Unemp[2421:2460]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "EslÃ¶v",])
 
-Unemp[2521:2540]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ängelholm",])
+Unemp[2521:2540]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã„ngelholm",])
 
-Unemp[2541:2560]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Hässleholm",])
+Unemp[2541:2560]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "HÃ¤ssleholm",])
 
-Unemp[2681:2700]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Härryda",])
+Unemp[2681:2700]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "HÃ¤rryda",])
 
-Unemp[2721:2740]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Öckerö",])
+Unemp[2721:2740]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã–ckerÃ¶",])
 
 Unemp[2741:2760]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Stenungsund",])
 
-Unemp[2761:2780]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Tjörn",])
+Unemp[2761:2780]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "TjÃ¶rn",])
 
-Unemp[2801:2820]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Sotenäs",])
+Unemp[2801:2820]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "SotenÃ¤s",])
 
-Unemp[2881:2900]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Färgelanda",])
+Unemp[2881:2900]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "FÃ¤rgelanda",])
 
-Unemp[2941:2960]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Vårgårda",])
+Unemp[2941:2960]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "VÃ¥rgÃ¥rda",])
 
-Unemp[2981:3000]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Grästorp",])
+Unemp[2981:3000]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "GrÃ¤storp",])
 
-Unemp[3041:3060]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Gullspång",])
+Unemp[3041:3060]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "GullspÃ¥ng",])
 
-Unemp[3221:3240]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Götene",])
+Unemp[3221:3240]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "GÃ¶tene",])
 
-Unemp[3261:3280]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Töreboda",])
+Unemp[3261:3280]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "TÃ¶reboda",])
 
-Unemp[3281:3300]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Göteborg",])
+Unemp[3281:3300]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "GÃ¶teborg",])
 
-Unemp[3301:3320]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Mölndal",])
+Unemp[3301:3320]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "MÃ¶lndal",])
 
-Unemp[3321:3340]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Kungälv",])
+Unemp[3321:3340]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "KungÃ¤lv",])
 
-Unemp[3381:3400]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Strömstad",])
+Unemp[3381:3400]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "StrÃ¶mstad",])
 
-Unemp[3401:3420]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Vänersborg",])
+Unemp[3401:3420]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "VÃ¤nersborg",])
 
-Unemp[3421:3440]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Trollhättan",])
+Unemp[3421:3440]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "TrollhÃ¤ttan",])
 
-Unemp[3441:3460]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Alingsås",])
+Unemp[3441:3460]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "AlingsÃ¥s",])
 
-Unemp[3421:3440]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Borås",])
+Unemp[3421:3440]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "BorÃ¥s",])
 
-Unemp[3421:3440]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Trollhättan",])
+Unemp[3421:3440]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "TrollhÃ¤ttan",])
 
-Unemp[3421:3440]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Trollhättan",])
+Unemp[3421:3440]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "TrollhÃ¤ttan",])
 
-Unemp[3421:3440]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Åmål",])
+Unemp[3421:3440]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã…mÃ¥l",])
 
-Unemp[3541:3560]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Lidköping",])
+Unemp[3541:3560]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "LidkÃ¶ping",])
 
-Unemp[3581:3600]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Skövde",])
+Unemp[3581:3600]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "SkÃ¶vde",])
 
-Unemp[3641:3660]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Falköping",])
+Unemp[3641:3660]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "FalkÃ¶ping",])
 
-Unemp[3741:3760]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Hammarö",])
+Unemp[3741:3760]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "HammarÃ¶",])
 
-Unemp[3821:3840]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Årjäng",])
+Unemp[3821:3840]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã…rjÃ¤ng",])
 
-Unemp[3961:3980]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Säffle",])
+Unemp[3961:3980]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "SÃ¤ffle",])
 
-Unemp[3021:4020]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Laxå",])
+Unemp[3021:4020]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "LaxÃ¥",])
 
-Unemp[4061:4080]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Hällefors",])
+Unemp[4061:4080]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "HÃ¤llefors",])
 
-Unemp[4101:4120]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Örebro",])
+Unemp[4101:4120]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã–rebro",])
 
-Unemp[4261:4280]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Kungsör",])
+Unemp[4261:4280]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "KungsÃ¶r",])
 
-Unemp[4321:4340]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Västerås",])
+Unemp[4321:4340]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "VÃ¤sterÃ¥s",])
 
-Unemp[4381:4400]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Köping",])
+Unemp[4381:4400]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "KÃ¶ping",])
 
-Unemp[4441:4460]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Malung-Sälen",])
+Unemp[4441:4460]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Malung-SÃ¤len",])
 
-Unemp[4501:4520]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Rättvik",])
+Unemp[4501:4520]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "RÃ¤ttvik",])
 
-Unemp[4541:4560]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Älvdalen",])
+Unemp[4541:4560]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã„lvdalen",])
 
-Unemp[4621:4640]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Borlänge",])
+Unemp[4621:4640]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "BorlÃ¤nge",])
 
-Unemp[4641:4660]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Säter",])
+Unemp[4641:4660]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "SÃ¤ter",])
 
-Unemp[4761:4780]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ovanåker",])
+Unemp[4761:4780]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "OvanÃ¥ker",])
 
-Unemp[4821:4840]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Gävle",])
+Unemp[4821:4840]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "GÃ¤vle",])
 
-Unemp[4861:4880]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Söderhamn",])
+Unemp[4861:4880]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "SÃ¶derhamn",])
 
-Unemp[4881:4900]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Bollnäs",])
+Unemp[4881:4900]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "BollnÃ¤s",])
 
-Unemp[4921:4940]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ånge",])
+Unemp[4921:4940]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã…nge",])
 
-Unemp[4941:4960]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Timrå",])
+Unemp[4941:4960]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "TimrÃ¥",])
 
-Unemp[4961:4980]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Härnösand",])
+Unemp[4961:4980]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "HÃ¤rnÃ¶sand",])
 
-Unemp[5021:5040]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Sollefteå",])
+Unemp[5021:5040]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "SollefteÃ¥",])
 
-Unemp[5041:5060]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Örnsköldsvik",])
+Unemp[5041:5060]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã–rnskÃ¶ldsvik",])
 
-Unemp[5081:5100]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Bräcke",])
+Unemp[5081:5100]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "BrÃ¤cke",])
 
-Unemp[5121:5140]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Strömsund",])
+Unemp[5121:5140]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "StrÃ¶msund",])
 
-Unemp[5141:5160]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Åre",])
+Unemp[5141:5160]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã…re",])
 
-Unemp[5181:5200]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Härjedalen",])
+Unemp[5181:5200]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "HÃ¤rjedalen",])
 
-Unemp[5201:5220]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Östersund",])
+Unemp[5201:5220]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã–stersund",])
 
-Unemp[5301:5320]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Norsjö",])
+Unemp[5301:5320]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "NorsjÃ¶",])
 
-Unemp[5321:5340]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Malå",])
+Unemp[5321:5340]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "MalÃ¥",])
 
-Unemp[5401:5420]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Vännäs",])
+Unemp[5401:5420]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "VÃ¤nnÃ¤s",])
 
-Unemp[5441:5460]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Åsele",])
+Unemp[5441:5460]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã…sele",])
 
-Unemp[5461:5480]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Umeå",])
+Unemp[5461:5480]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "UmeÃ¥",])
 
 Unemp[5481:5500]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Lycksele",])
 
-Unemp[5501:5520]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Skellefteå",])
+Unemp[5501:5520]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "SkellefteÃ¥",])
 
-Unemp[5581:5600]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Överkalix",])
+Unemp[5581:5600]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã–verkalix",])
 
-Unemp[5621:5640]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Övertorneå",])
+Unemp[5621:5640]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã–vertorneÃ¥",])
 
-Unemp[5661:5680]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Gällivare",])
+Unemp[5661:5680]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "GÃ¤llivare",])
 
-Unemp[5681:5700]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Älvsbyn",])
+Unemp[5681:5700]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Ã„lvsbyn",])
 
-Unemp[5701:5720]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Luleå",])
+Unemp[5701:5720]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "LuleÃ¥",])
 
-Unemp[5721:5740]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "Piteå",])
+Unemp[5721:5740]<-as.numeric(Unemp_frame[,seq(2, 21)][Unemp_frame$V1 == "PiteÃ¥",])
 
 ###############################################  Thesis_2021   ##############################################
 
@@ -678,7 +679,7 @@ High[29, 2]<-0.195
 
 #############################################################################################################
 
-Genderdistribution <- as.data.frame(read_excel("C:/Users/46766/Dropbox/Thesis_2021/Thesis data/Könfördelning.xlsx", skip = 2))
+Genderdistribution <- as.data.frame(read_excel("C:/Users/46766/Dropbox/Thesis_2021/Thesis data/KÃ¶nfÃ¶rdelning.xlsx", skip = 2))
 
 Genderdistribution<-Genderdistribution[1:580,]
 
