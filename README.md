@@ -1,5 +1,5 @@
 # Thesis-MsC-Economics
-Hello there! This repository contains code used for a master's thesis in economics. The thesis investigates whether changes in the Swedish demographic profile might have contributed to a rise in income inequality.
+This repository contains code used for a master's thesis in economics. The thesis investigates whether changes in the Swedish demographic profile might have contributed to a rise in income inequality.
 
 The code for this thesis contains four subsections. 
 (1) The data gathering; referring to collection, cleaning, formatting, and finally transforming into an easily managed data frame. 
